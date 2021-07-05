@@ -44,3 +44,5 @@ module.exports = {
     })
   ]
 };
+
+console.info(module.exports.plugins[1].definitions);
