@@ -25,6 +25,11 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    alias: {
+      phaser: "phaser/src/phaser.js"
+    }
+  },
   plugins: [
     new CleanWebpackPlugin({
       root: path.resolve(__dirname, "../")
